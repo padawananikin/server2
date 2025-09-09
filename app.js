@@ -4,7 +4,7 @@ const app = express()
 
 
 
-app.get("/",(req,res)=> {
+app.get("/health",(req,res)=> {
     res.send({
         "msg":"Sever is working fine"
     })
